@@ -1,7 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-
 import '../_core_exports.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class SvgIcons extends StatelessWidget {
   final String path;

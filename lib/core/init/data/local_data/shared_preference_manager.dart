@@ -1,5 +1,6 @@
-import 'package:mevsimiwarehouse/core/_core_exports.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../../_core_exports.dart';
 
 class LocaleManager {
   static final LocaleManager _instance = LocaleManager._init();

@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:mevsimiwarehouse/core/constants/_constants_exports.dart';
+import '../_core_exports.dart';
 
 extension ContextExtension on BuildContext {
   MediaQueryData get mediaQuery => MediaQuery.of(this);

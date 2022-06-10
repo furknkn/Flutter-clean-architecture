@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//size ilk sayfada hesaplanıp ScreenSize sınıfına aktarılacak
 class ScreenSize {
   static final ScreenSize _instance = ScreenSize._init();
   ScreenSize._init();

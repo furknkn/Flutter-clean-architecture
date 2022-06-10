@@ -1,8 +1,6 @@
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
 
-import '../../../view/_view_exports.dart';
-
 class ApplicationProviderList {
   static ApplicationProviderList? _instance;
 
@@ -15,21 +13,10 @@ class ApplicationProviderList {
 
   List<SingleChildWidget> singleItems = [];
   List<SingleChildWidget> dependItems = [
+    /*
     ChangeNotifierProvider(
-      create: (context) => IpConnectionViewModel(),
-    ),
-    ChangeNotifierProvider(
-      create: (context) => LoginViewModel(),
-    ),
-    ChangeNotifierProvider(
-      create: (context) => DeliverJobViewModel(),
-    ),
-    ChangeNotifierProvider(
-      create: (context) => LandingViewModel(),
-    ),
-    ChangeNotifierProvider(
-      create: (context) => ProductDetailViewModel(),
-    ),
+      create: (context) => xxxViewModel(),
+    ),*/
   ];
   List<SingleChildWidget> uiChangesItems = [];
 }
